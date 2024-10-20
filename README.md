@@ -1,4 +1,3 @@
-
 # CSV to JSON Converter API
 
 This project demonstrates a CSV to JSON converter API built using **Node.js** and **Express.js**, capable of parsing CSV files into JSON and uploading the parsed data to a **PostgreSQL** database. Additionally, the application calculates and reports the age distribution of the uploaded users.
@@ -75,7 +74,7 @@ The server will run at `http://localhost:4200`.
 ### POST `/upload`
 
 - **Description**: Uploads a CSV file, parses it, and stores the data in the PostgreSQL database.
-- **Request**: 
+- **Request**:
   - Form-data containing a CSV file (key: `csvFile`).
 - **Response**:
   - A message showing the age distribution as a percentage.
